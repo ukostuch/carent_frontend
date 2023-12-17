@@ -1,0 +1,17 @@
+.mapaFrame,
+.mapaIcon {
+  position: absolute;
+  left: calc(50% - 731px);
+}
+.mapaIcon {
+  top: 69px;
+  width: 1462px;
+  height: 855px;
+  object-fit: cover;
+}
+.mapaFrame {
+  top: 1306px;
+  width: 1468px;
+  height: 924px;
+  overflow: hidden;
+}

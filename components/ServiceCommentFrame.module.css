@@ -1,0 +1,77 @@
+.strzalkaLewo,
+.strzlkaPrawo {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 130px;
+  width: 42px;
+  height: 42px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.strzalkaLewo {
+  left: 66px;
+  background-image: url(/strzalkalewo@2x.png);
+}
+.strzlkaPrawo {
+  right: 80px;
+  background-image: url(/strzlkaprawo@2x.png);
+}
+.image11Icon,
+.image12Icon {
+  position: absolute;
+  top: 29px;
+  left: calc(50% - 3px);
+  width: 52px;
+  height: 52px;
+  object-fit: cover;
+}
+.image12Icon {
+  top: 113px;
+  left: calc(50% - 51px);
+  width: 149px;
+  height: 34px;
+}
+.greta,
+.iReallyEnjoyed,
+.sweden {
+  position: absolute;
+  display: inline-block;
+}
+.iReallyEnjoyed {
+  top: 154px;
+  left: calc(50% - 151px);
+  font-family: var(--font-inter);
+  width: 360px;
+  height: 84px;
+}
+.greta,
+.sweden {
+  top: 84px;
+  left: calc(50% - 110px);
+  color: var(--color-black);
+  text-align: right;
+  width: 125px;
+  height: 21px;
+}
+.sweden {
+  left: calc(50% + 29px);
+  color: var(--color-slategray);
+  text-align: left;
+  width: 172px;
+}
+.serviceCommentFrame {
+  position: absolute;
+  top: 1835px;
+  left: calc(50% - 734px);
+  width: 1468px;
+  height: 265px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--body-mobile-m-regular-size);
+  color: var(--color-dimgray-100);
+  font-family: var(--body-desktop-s-regular);
+}

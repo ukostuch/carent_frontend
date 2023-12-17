@@ -1,0 +1,383 @@
+.imagePasted20232210At08 {
+  position: absolute;
+  top: 210px;
+  left: 0;
+  width: 1294px;
+  height: 408px;
+  object-fit: cover;
+}
+.locationsChild {
+  position: absolute;
+  top: 618px;
+  left: 0;
+  background-color: var(--color-orangered-200);
+  width: 2000px;
+  height: 279px;
+}
+.image18Icon,
+.image19Icon {
+  position: absolute;
+  object-fit: cover;
+}
+.image18Icon {
+  top: 692px;
+  left: 215px;
+  width: 59px;
+  height: 67px;
+}
+.image19Icon {
+  top: 749px;
+  left: calc(50% - 209px);
+  width: 117px;
+  height: 121px;
+}
+.locationsItem {
+  position: absolute;
+  top: 658px;
+  right: -6px;
+  width: 550px;
+  height: 202px;
+}
+.image20Icon,
+.image21Icon,
+.image22Icon {
+  position: absolute;
+  top: 701px;
+  right: 396px;
+  width: 62px;
+  height: 66px;
+  object-fit: cover;
+}
+.image21Icon,
+.image22Icon {
+  top: 663px;
+  right: 133px;
+}
+.image22Icon {
+  top: 767px;
+}
+.openingHours {
+  position: absolute;
+  top: 768px;
+  left: 153px;
+  font-size: var(--font-size-7xl);
+  display: inline-block;
+  text-align: left;
+  width: 243px;
+  height: 29px;
+}
+.contact,
+.ourCompanyProvides {
+  position: absolute;
+  line-height: 24px;
+  display: inline-block;
+}
+.ourCompanyProvides {
+  top: 667px;
+  left: calc(50% - 258px);
+  width: 214px;
+  height: 92px;
+}
+.contact {
+  top: 782px;
+  right: 351px;
+  font-size: var(--font-size-7xl);
+  width: 130px;
+  height: 21px;
+}
+.phone {
+  font-family: var(--body-desktop-s-regular);
+}
+.phone484561Container {
+  top: 729px;
+  right: 59px;
+  font-size: var(--body-mobile-m-regular-size);
+  width: 210px;
+  height: 30px;
+  font-family: var(--font-inter);
+}
+.emailCarrestgmailcom,
+.ourBranches,
+.phone484561Container {
+  position: absolute;
+  line-height: 24px;
+  display: inline-block;
+}
+.emailCarrestgmailcom {
+  top: 820px;
+  right: 59px;
+  font-size: var(--body-mobile-m-regular-size);
+  width: 210px;
+  height: 40px;
+  font-family: var(--font-inter);
+}
+.ourBranches {
+  top: 947px;
+  left: calc(50% - 174px);
+  font-size: var(--font-size-26xl);
+  color: var(--color-orangered-100);
+  width: 370px;
+  height: 78px;
+}
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 448.5px);
+  border-radius: var(--br-26xl);
+  background-color: var(--color-gainsboro-200);
+  border: 5px solid var(--color-dimgray-300);
+  box-sizing: border-box;
+  width: 897px;
+  height: 254px;
+}
+.gdyniaSopocka15 {
+  position: absolute;
+  top: 35px;
+  left: calc(50% - 354.5px);
+  line-height: 24px;
+  display: inline-block;
+  width: 208px;
+  height: 40px;
+}
+.olsztynSielska22 {
+  top: 114px;
+  left: calc(50% - 344.5px);
+  width: 190px;
+  height: 29px;
+}
+.krakwBieanowska18,
+.lublinJanowska11,
+.olsztynSielska22,
+.poznaDworcowa3 {
+  position: absolute;
+  line-height: 24px;
+  display: inline-block;
+}
+.krakwBieanowska18 {
+  top: 192px;
+  left: calc(50% - 354.5px);
+  color: var(--color-dimgray-300);
+  width: 260px;
+  height: 36px;
+}
+.lublinJanowska11,
+.poznaDworcowa3 {
+  left: calc(50% + 108.5px);
+}
+.poznaDworcowa3 {
+  top: 36px;
+  color: var(--color-dimgray-300);
+  width: 246px;
+  height: 41px;
+}
+.lublinJanowska11 {
+  top: 114px;
+  width: 252px;
+  height: 47px;
+}
+.image23Icon,
+.image24Icon,
+.image25Icon,
+.image26Icon,
+.image27Icon {
+  position: absolute;
+  top: 33px;
+  left: calc(50% - 403.5px);
+  width: 42px;
+  height: 39px;
+  object-fit: cover;
+}
+.image24Icon,
+.image25Icon,
+.image26Icon,
+.image27Icon {
+  left: calc(50% + 73.5px);
+}
+.image24Icon,
+.image25Icon,
+.image27Icon {
+  top: 114px;
+}
+.image24Icon,
+.image25Icon {
+  top: 180px;
+  left: calc(50% - 403.5px);
+}
+.image24Icon {
+  top: 107px;
+}
+.rectangleParent {
+  position: absolute;
+  top: 1006px;
+  left: calc(50% - 446px);
+  width: 897px;
+  height: 254px;
+  color: var(--color-dimgray-100);
+}
+.groupItem,
+.locationsInner {
+  position: absolute;
+  left: 0;
+  width: 2168px;
+  height: 236px;
+}
+.groupItem {
+  top: 0;
+  background-color: var(--color-whitesmoke);
+}
+.locationsInner {
+  top: 2230px;
+}
+.image16Icon {
+  position: absolute;
+  top: 2276px;
+  left: calc(50% - 167px);
+  width: 321px;
+  height: 143px;
+  object-fit: cover;
+}
+.bookYourCar,
+.ourLocations,
+.serviceRules {
+  position: absolute;
+  top: 96px;
+  right: 803px;
+  line-height: 28px;
+  color: var(--color-orangered-100);
+  text-align: left;
+}
+.bookYourCar,
+.serviceRules {
+  right: 604px;
+}
+.serviceRules {
+  right: 415px;
+}
+.icons,
+.label {
+  position: relative;
+}
+.icons {
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.label {
+  font-size: var(--body-mobile-m-regular-size);
+  line-height: 17px;
+  font-family: var(--body-desktop-s-regular);
+  color: var(--pure-white);
+  text-align: left;
+}
+.buttonmain {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: var(--corner-rad-pill);
+  background-color: var(--color-orangered-100);
+  border: 2px solid var(--color-orangered-100);
+  box-sizing: border-box;
+  width: 169px;
+  height: 51px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xs);
+  gap: var(--gap-5xs);
+}
+.buttonmainWrapper,
+.screenshotFrom2023102012 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+}
+.buttonmainWrapper {
+  top: 93px;
+  right: 150px;
+  width: 169px;
+  height: 51px;
+}
+.screenshotFrom2023102012 {
+  top: 55px;
+  left: 49px;
+  width: 296px;
+  height: 138px;
+  background-image: url(/screenshotfrom20231020121530removebgpreview14@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.bookCar,
+.locations1,
+.serviceRules1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-gainsboro-200);
+  position: absolute;
+  top: 84px;
+  right: 776px;
+  width: 178px;
+  height: 67px;
+}
+.bookCar,
+.serviceRules1 {
+  right: 589px;
+  width: 163px;
+}
+.serviceRules1 {
+  right: 391px;
+  width: 159px;
+}
+.rectangleDiv {
+  position: absolute;
+  top: 263px;
+  left: 101px;
+  border-radius: var(--br-5xs);
+  background: linear-gradient(
+    180deg,
+    rgba(181, 187, 202, 0.8) 78.03%,
+    rgba(181, 187, 202, 0)
+  );
+  width: 421px;
+  height: 173px;
+}
+.checkOutWhere,
+.weAreWaitingContainer {
+  position: absolute;
+  letter-spacing: -0.02em;
+  line-height: 35px;
+  display: inline-block;
+}
+.weAreWaitingContainer {
+  top: 295px;
+  left: 131px;
+  font-size: var(--font-size-7xl);
+  color: var(--color-orangered-100);
+  width: 364px;
+  height: 54px;
+}
+.checkOutWhere {
+  top: 379px;
+  left: 173px;
+  font-size: var(--body-mobile-m-regular-size);
+  width: 280px;
+  height: 35px;
+}
+.locations {
+  position: relative;
+  background-color: var(--pure-white);
+  width: 100%;
+  height: 2450px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--pure-white);
+  font-family: var(--body-desktop-s-regular);
+}

@@ -1,0 +1,132 @@
+.offerChild {
+  position: absolute;
+  top: 514px;
+  left: calc(50% - 1325px);
+  background-color: var(--color-orangered-100);
+  width: 2804px;
+  height: 1696px;
+}
+.offerItem {
+  position: absolute;
+  top: 2214px;
+  left: 0;
+  background-color: var(--color-whitesmoke);
+  width: 2232px;
+  height: 236px;
+}
+.image17Icon {
+  position: absolute;
+  top: 2277px;
+  left: calc(50% - 122px);
+  width: 321px;
+  height: 143px;
+  object-fit: cover;
+}
+.bookYourCar,
+.ourLocations,
+.serviceRules {
+  position: absolute;
+  top: 95px;
+  right: 803px;
+  line-height: 28px;
+}
+.bookYourCar,
+.serviceRules {
+  right: 604px;
+}
+.serviceRules {
+  right: 415px;
+}
+.icons,
+.label {
+  position: relative;
+}
+.icons {
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.label {
+  font-size: var(--body-mobile-m-regular-size);
+  line-height: 17px;
+  font-family: var(--body-desktop-s-regular);
+  color: var(--pure-white);
+  text-align: left;
+}
+.buttonmain {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: var(--corner-rad-pill);
+  background-color: var(--color-orangered-100);
+  border: 2px solid var(--color-orangered-100);
+  box-sizing: border-box;
+  width: 169px;
+  height: 51px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xs);
+  gap: var(--gap-5xs);
+}
+.register,
+.screenshotFrom2023102012 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+}
+.register {
+  top: 92px;
+  right: 150px;
+  width: 169px;
+  height: 51px;
+}
+.screenshotFrom2023102012 {
+  top: 54px;
+  left: 49px;
+  width: 296px;
+  height: 138px;
+  background-image: url(/screenshotfrom20231020121530removebgpreview14@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.bookCar,
+.ourLocations1,
+.serviceRules1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-gainsboro-200);
+  position: absolute;
+  top: 83px;
+  right: 776px;
+  width: 178px;
+  height: 67px;
+}
+.bookCar,
+.serviceRules1 {
+  right: 589px;
+  width: 163px;
+}
+.serviceRules1 {
+  right: 391px;
+  width: 159px;
+}
+.offer {
+  position: relative;
+  background-color: var(--pure-white);
+  width: 100%;
+  height: 2450px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-orangered-100);
+  font-family: var(--body-desktop-s-regular);
+}

@@ -1,0 +1,138 @@
+.bookYourCar,
+.ourLocations,
+.serviceRules {
+  position: absolute;
+  top: 96px;
+  right: 803px;
+  line-height: 28px;
+}
+.bookYourCar,
+.serviceRules {
+  right: 604px;
+}
+.serviceRules {
+  right: 415px;
+}
+.screenshotFrom2023102012 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 55px;
+  left: 49px;
+  width: 296px;
+  height: 138px;
+  background-image: url(/screenshotfrom20231020121530removebgpreview14@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.bookYourCar1,
+.ourLocations1,
+.rules {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-gainsboro-200);
+  position: absolute;
+  top: 84px;
+  right: 776px;
+  width: 178px;
+  height: 67px;
+}
+.bookYourCar1,
+.rules {
+  right: 589px;
+  width: 163px;
+}
+.rules {
+  right: 391px;
+  width: 159px;
+}
+.loginChild,
+.loginItem {
+  position: absolute;
+  top: 232px;
+  left: calc(50% - 1548px);
+  background-color: var(--color-gray-100);
+  width: 3472px;
+  height: 1218px;
+}
+.loginItem {
+  top: 321px;
+  left: calc(50% - 535px);
+  border-radius: var(--br-26xl);
+  background-color: var(--pure-white);
+  width: 1106px;
+  height: 940px;
+}
+.groupChild,
+.loginInner {
+  position: absolute;
+  width: 2169px;
+  height: 236px;
+}
+.groupChild {
+  top: 0;
+  left: 0;
+  background-color: var(--color-whitesmoke);
+}
+.loginInner {
+  top: 1447px;
+  left: -5px;
+}
+.image17Icon {
+  position: absolute;
+  top: 1491px;
+  left: calc(50% - 117px);
+  width: 321px;
+  height: 143px;
+  object-fit: cover;
+}
+.icons,
+.label {
+  position: relative;
+}
+.icons {
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.label {
+  line-height: 17px;
+}
+.buttonmain {
+  position: absolute;
+  top: 96px;
+  right: 149px;
+  border-radius: var(--corner-rad-pill);
+  background-color: var(--color-orangered-100);
+  border: 2px solid var(--color-orangered-100);
+  box-sizing: border-box;
+  width: 169px;
+  height: 51px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xs);
+  gap: var(--gap-5xs);
+  cursor: pointer;
+  font-size: var(--body-mobile-m-regular-size);
+  color: var(--pure-white);
+}
+.login {
+  position: relative;
+  background-color: var(--pure-white);
+  width: 100%;
+  height: 1683px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-orangered-100);
+  font-family: var(--body-desktop-s-regular);
+}

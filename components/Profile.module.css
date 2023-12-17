@@ -1,0 +1,453 @@
+.yourThreeLast,
+.yourUsername {
+  position: absolute;
+  display: inline-block;
+}
+.yourThreeLast {
+  top: 373px;
+  left: calc(50% - 307px);
+  font-size: var(--font-size-26xl);
+  color: var(--color-orangered-100);
+  text-align: center;
+  width: 611px;
+  height: 58px;
+}
+.yourUsername {
+  top: 46px;
+  left: calc(50% - 366px);
+  font-size: var(--font-size-11xl);
+  color: var(--color-dimgray-300);
+  width: 278px;
+  height: 40px;
+}
+.myUsername {
+  position: absolute;
+  top: 39px;
+  left: calc(50% - 72px);
+  font-size: var(--font-size-xl);
+  line-height: 24px;
+  color: var(--color-black);
+  display: flex;
+  align-items: center;
+  width: 333px;
+  height: 54px;
+}
+.inputdefault {
+  background-color: transparent;
+  position: absolute;
+  top: 193px;
+  left: calc(50% - 69px);
+}
+.icons,
+.label {
+  position: relative;
+}
+.icons {
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.label {
+  font-size: var(--body-mobile-m-regular-size);
+  line-height: 17px;
+  font-family: var(--body-desktop-s-regular);
+  color: var(--color-orangered-100);
+  text-align: left;
+}
+.buttonmain,
+.changePassword {
+  position: absolute;
+  width: 142px;
+  height: 43px;
+}
+.buttonmain {
+  top: 0;
+  left: calc(50% - 71px);
+  border-radius: var(--corner-rad-pill);
+  background-color: var(--pure-white);
+  border: 2px solid var(--color-orangered-100);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xs);
+  gap: var(--gap-5xs);
+}
+.changePassword {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 266px;
+  left: calc(50% + 289px);
+}
+.changePassword1,
+.yourNewPassword {
+  position: absolute;
+  top: 196px;
+  left: calc(50% - 363px);
+  font-size: var(--font-size-11xl);
+  display: inline-block;
+  color: var(--color-dimgray-200);
+  width: 294px;
+  height: 50px;
+}
+.changePassword1 {
+  top: 138px;
+  left: calc(50% - 181px);
+  color: var(--color-orangered-100);
+  width: 304px;
+  height: 42px;
+}
+.profileChild {
+  position: absolute;
+  top: 441px;
+  left: calc(50% - 443px);
+  border-radius: var(--br-26xl);
+  background-color: var(--color-orangered-100);
+  width: 884px;
+  height: 250px;
+}
+.canccelReservation,
+.samochod {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 457px;
+  left: calc(50% + 277px);
+  width: 142px;
+  height: 43px;
+}
+.samochod {
+  top: 472px;
+  left: calc(50% - 389px);
+  border-radius: var(--br-5xs);
+  width: 266px;
+  height: 169px;
+  background-image: url(/samochod@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.b,
+.b1,
+.b2,
+.krakwBieanowska11,
+.location,
+.model,
+.pickUpDate,
+.priceZ,
+.returnDate,
+.siguan {
+  position: absolute;
+  top: 511px;
+  left: calc(50% - 81px);
+  line-height: 17px;
+  display: flex;
+  color: var(--pure-white);
+  align-items: center;
+  width: 214px;
+  height: 28px;
+}
+.b,
+.b1,
+.b2,
+.krakwBieanowska11,
+.location,
+.model,
+.priceZ,
+.returnDate,
+.siguan {
+  top: 473px;
+  left: calc(50% - 84px);
+  width: 72px;
+}
+.b,
+.b1,
+.b2,
+.krakwBieanowska11,
+.location,
+.priceZ,
+.returnDate,
+.siguan {
+  top: 549px;
+  left: calc(50% - 81px);
+  width: 214px;
+}
+.b,
+.b1,
+.b2,
+.krakwBieanowska11,
+.location,
+.priceZ,
+.siguan {
+  top: 587px;
+}
+.b,
+.b1,
+.b2,
+.krakwBieanowska11,
+.location,
+.siguan {
+  top: 625px;
+}
+.b,
+.b1,
+.b2,
+.krakwBieanowska11,
+.siguan {
+  top: 467px;
+  left: calc(50% + 67px);
+  line-height: 16.53px;
+  width: 203px;
+  height: 32px;
+}
+.b,
+.b1,
+.b2,
+.krakwBieanowska11 {
+  top: 507px;
+  left: calc(50% + 62px);
+}
+.b1,
+.b2,
+.krakwBieanowska11 {
+  top: 545px;
+}
+.b2,
+.krakwBieanowska11 {
+  top: 584px;
+}
+.krakwBieanowska11 {
+  top: 624px;
+  width: 318px;
+}
+.profileItem {
+  position: absolute;
+  top: 712px;
+  left: calc(50% - 443px);
+  border-radius: var(--br-26xl);
+  background-color: var(--color-silver);
+  width: 884px;
+  height: 250px;
+}
+.samochod1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 743px;
+  left: calc(50% - 389px);
+  border-radius: var(--br-5xs);
+  width: 266px;
+  height: 169px;
+  background-image: url(/samochod13@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.location1,
+.model1,
+.pickUpDate1,
+.priceZ1,
+.returnDate1 {
+  position: absolute;
+  top: 782px;
+  left: calc(50% - 81px);
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  width: 214px;
+  height: 28px;
+}
+.location1,
+.model1,
+.priceZ1,
+.returnDate1 {
+  top: 744px;
+  left: calc(50% - 84px);
+  width: 72px;
+}
+.location1,
+.priceZ1,
+.returnDate1 {
+  top: 820px;
+  left: calc(50% - 81px);
+  width: 214px;
+}
+.location1,
+.priceZ1 {
+  top: 858px;
+  color: var(--color-dimgray-300);
+  width: 106px;
+}
+.location1 {
+  top: 896px;
+  width: 214px;
+}
+.b3,
+.b4,
+.b5,
+.krakwBieanowska12,
+.yaris {
+  position: absolute;
+  line-height: 16.53px;
+  display: flex;
+  align-items: center;
+  width: 203px;
+  height: 32px;
+}
+.yaris {
+  top: 738px;
+  left: calc(50% + 67px);
+  color: var(--color-darkslategray-100);
+}
+.b3,
+.b4,
+.b5,
+.krakwBieanowska12 {
+  top: 778px;
+  left: calc(50% + 62px);
+}
+.b4,
+.b5,
+.krakwBieanowska12 {
+  top: 816px;
+}
+.b5,
+.krakwBieanowska12 {
+  top: 855px;
+}
+.krakwBieanowska12 {
+  top: 895px;
+  width: 318px;
+}
+.profileInner {
+  position: absolute;
+  top: 983px;
+  left: calc(50% - 443px);
+  border-radius: var(--br-26xl);
+  background-color: var(--color-silver);
+  width: 884px;
+  height: 250px;
+}
+.samochod2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 1014px;
+  left: calc(50% - 389px);
+  border-radius: var(--br-5xs);
+  width: 266px;
+  height: 169px;
+  background-image: url(/samochod21@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.location2 {
+  position: absolute;
+  top: 1167px;
+  display: flex;
+  align-items: center;
+  width: 214px;
+}
+.location2,
+.pickUpDate2,
+.priceZ2,
+.returnDate2 {
+  left: calc(50% - 81px);
+  line-height: 17px;
+  height: 28px;
+}
+.priceZ2 {
+  position: absolute;
+  top: 1129px;
+  display: flex;
+  align-items: center;
+  width: 106px;
+}
+.pickUpDate2,
+.returnDate2 {
+  width: 214px;
+}
+.returnDate2 {
+  position: absolute;
+  top: 1091px;
+  display: flex;
+  align-items: center;
+}
+.pickUpDate2 {
+  top: 1053px;
+}
+.b6,
+.b7,
+.b8,
+.krakwBieanowska13,
+.leon,
+.model2,
+.pickUpDate2 {
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+.model2 {
+  top: 1015px;
+  left: calc(50% - 84px);
+  line-height: 17px;
+  color: var(--color-dimgray-300);
+  width: 72px;
+  height: 28px;
+}
+.b6,
+.b7,
+.b8,
+.krakwBieanowska13,
+.leon {
+  top: 1009px;
+  left: calc(50% + 67px);
+  line-height: 16.53px;
+  width: 203px;
+  height: 32px;
+}
+.b6,
+.b7,
+.b8,
+.krakwBieanowska13 {
+  top: 1049px;
+  left: calc(50% + 62px);
+}
+.b7,
+.b8,
+.krakwBieanowska13 {
+  top: 1087px;
+}
+.b8,
+.krakwBieanowska13 {
+  top: 1126px;
+}
+.krakwBieanowska13 {
+  top: 1166px;
+  width: 322px;
+}
+.profile {
+  position: absolute;
+  top: 442px;
+  left: calc(50% - 534px);
+  width: 1104px;
+  height: 1233px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-dimgray-100);
+  font-family: var(--body-desktop-s-regular);
+}

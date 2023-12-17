@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --body-desktop-s-regular: Outfit;
+  --font-roboto: Roboto;
+  --font-inter: Inter;
+
+  /* font sizes */
+  --body-mobile-m-regular-size: 16px;
+  --font-size-xl: 20px;
+  --font-size-6xl: 25px;
+  --font-size-11xl: 30px;
+  --font-size-26xl: 45px;
+  --body-desktop-s-regular-size: 14px;
+  --font-size-lg: 18px;
+  --font-size-13xl: 32px;
+  --font-size-7xl: 26px;
+
+  /* Colors */
+  --pure-white: #fff;
+  --color-orangered-100: #ff4723;
+  --color-orangered-200: #ff3823;
+  --color-gainsboro-400: #e1e1e1;
+  --color-gainsboro-100: #d9d9d9;
+  --color-gainsboro-300: rgba(217, 217, 217, 0.4);
+  --color-gainsboro-500: rgba(217, 217, 217, 0.79);
+  --color-gainsboro-200: rgba(217, 217, 217, 0);
+  --color-mediumblue: #1134ec;
+  --color-black: #000;
+  --color-dimgray-100: #606060;
+  --color-dimgray-200: #635a5a;
+  --color-dimgray-300: #5d5959;
+  --elephant: #555;
+  --color-gray-100: #7c7c7c;
+  --darkness: #070707;
+  --color-gray-200: rgba(0, 0, 0, 0.28);
+  --color-whitesmoke: #f7f6f6;
+  --color-whitesmoke-100: #f0f0f0;
+  --color-darkslategray-100: #495057;
+  --slate: #343434;
+  --outlined-brand: #fcff55;
+  --color-lightgray: #ced4da;
+  --color-silver: #bfbfbf;
+  --color-slategray: #6c757d;
+
+  /* Spacing */
+  --corner-rad-pill: 1000px;
+
+  /* Gaps */
+  --gap-5xs: 8px;
+
+  /* Paddings */
+  --padding-xs: 12px;
+
+  /* Border radiuses */
+  --br-981xl: 1000px;
+  --br-5xs: 8px;
+  --br-26xl: 45px;
+}

@@ -1,0 +1,168 @@
+.carType,
+.fuelType,
+.gearType,
+.price,
+.sortBy {
+  position: absolute;
+  top: 189px;
+  right: 1685px;
+  line-height: 28px;
+  display: inline-block;
+  width: 95px;
+  height: 28px;
+}
+.carType,
+.fuelType,
+.price,
+.sortBy {
+  right: 1494px;
+  width: 114px;
+}
+.carType,
+.price,
+.sortBy {
+  top: 191px;
+  right: 1314px;
+  width: 97px;
+  height: 26px;
+}
+.price,
+.sortBy {
+  top: 189px;
+  right: 1133px;
+  width: 106px;
+  height: 28px;
+}
+.sortBy {
+  top: 261px;
+  right: 1122px;
+  width: 98px;
+  height: 22px;
+}
+.selectdefaultFormselect,
+.selectdefaultFormselect1 {
+  width: 143px;
+  position: absolute;
+  top: 182px;
+  left: 1287px;
+}
+.selectdefaultFormselect1 {
+  left: 1464px;
+}
+.selectdefaultFormselect2,
+.selectdefaultFormselect3 {
+  width: 143px;
+  position: absolute;
+  top: 182px;
+  left: 1643px;
+}
+.selectdefaultFormselect3 {
+  left: 1823px;
+}
+.caleOfferChild,
+.caleOfferItem {
+  position: absolute;
+  top: 7px;
+  left: calc(50% - 1674px);
+  background-color: var(--color-gainsboro-100);
+  width: 2920px;
+  height: 153px;
+}
+.caleOfferItem {
+  top: 44px;
+  left: calc(50% - 760px);
+  border-radius: var(--br-26xl);
+  background-color: var(--pure-white);
+  border: 3px solid var(--color-gray-100);
+  box-sizing: border-box;
+  width: 1247px;
+  height: 80px;
+}
+.pickUpDate,
+.pickUpLocation,
+.returnDate {
+  position: absolute;
+  top: 50px;
+  left: calc(50% - 639px);
+  line-height: 28px;
+  color: var(--color-black);
+  display: inline-block;
+  width: 180px;
+  height: 21px;
+}
+.pickUpDate,
+.returnDate {
+  left: calc(50% - 281px);
+  width: 152px;
+}
+.returnDate {
+  top: 48px;
+  left: calc(50% + 48px);
+  width: 120px;
+  height: 23px;
+}
+.search {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 49px;
+  left: calc(50% + 333px);
+  width: 78px;
+  height: 70px;
+  background-image: url(/search@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.image38Icon,
+.image39Icon,
+.image40Icon {
+  position: absolute;
+  top: 50px;
+  left: calc(50% - 378px);
+  width: 78px;
+  height: 68px;
+  object-fit: cover;
+}
+.image39Icon,
+.image40Icon {
+  top: 53px;
+  left: calc(50% - 715px);
+  width: 70px;
+  height: 62px;
+}
+.image39Icon {
+  top: 50px;
+  left: calc(50% - 81px);
+  width: 78px;
+  height: 68px;
+}
+.pickUpDate1,
+.returnDate1 {
+  position: absolute;
+  top: 78px;
+  left: calc(50% - 282px);
+}
+.returnDate1 {
+  left: calc(50% + 30px);
+}
+.caleOffer,
+.selectInput {
+  position: absolute;
+  top: 80px;
+  left: calc(50% - 627px);
+}
+.caleOffer {
+  top: 224px;
+  left: calc(50% - 1383px);
+  background-color: var(--pure-white);
+  width: 3084px;
+  height: 2012px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--body-mobile-m-regular-size);
+  color: var(--pure-white);
+  font-family: var(--body-desktop-s-regular);
+}

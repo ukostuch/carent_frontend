@@ -1,0 +1,58 @@
+.tloPom {
+  position: absolute;
+  top: 18px;
+  left: calc(50% - 1838px);
+  background-color: var(--color-orangered-100);
+  width: 3270px;
+  height: 1697px;
+}
+.strzalkalewo,
+.strzalkaprawo {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 1640px;
+  right: 739px;
+  border-radius: var(--br-5xs);
+  width: 42px;
+  height: 42px;
+  background-image: url(/image32@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.strzalkalewo {
+  right: 801px;
+  background-image: url(/image321@2x.png);
+}
+.ofertyFrame {
+  position: absolute;
+  width: calc(100% - 392px);
+  top: 281px;
+  right: 291px;
+  left: 101px;
+  background-color: var(--pure-white);
+  height: 1719px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-6xl);
+  color: var(--color-black);
+  font-family: var(--body-desktop-s-regular);
+}
+
+.pagination {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.pagination button {
+  color: var(--color-black);  /* Dodaj kolor czcionki dla przycisków */
+}
+

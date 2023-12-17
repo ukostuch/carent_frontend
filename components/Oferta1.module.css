@@ -1,0 +1,75 @@
+.oferta1Child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-5xs);
+  background-color: var(--pure-white);
+  width: 430px;
+  height: 353px;
+}
+/*.samochod1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 24px;
+  left: 27px;
+  width: 375px;
+  height: 209px;
+  background-image: url(/samochod1@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}*/
+.samochod1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 24px;  /* Możesz dostosować tę wartość */
+  left: 27px;  /* Możesz dostosować tę wartość */
+  width: 375px;
+  height: 209px;
+  /*background-image: url(/samochod1@3x.png);*/
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;  /*bylo top*/
+}
+.model1,
+.nazwa1 {
+  position: absolute;
+  left: 105px;
+  width: 231px;
+}
+.nazwa1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-gainsboro-100);
+  top: 259px;
+  border-radius: var(--br-5xs);
+  height: 47px;
+}
+.model1 {
+  top: 267px;
+  line-height: 24px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 31px;
+}
+.oferta1 {
+  position: absolute;
+  top: 78px;
+  left: 644px;
+  border-radius: var(--br-5xs);
+  width: 450px;
+  height: 353px;
+  text-align: center;
+  font-size: var(--font-size-6xl);
+  color: var(--color-black);
+  font-family: var(--body-desktop-s-regular);
+}

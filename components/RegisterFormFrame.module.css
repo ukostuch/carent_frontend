@@ -1,0 +1,310 @@
+.setUsername {
+  position: absolute;
+  top: 64px;
+  left: calc(50% - 206px);
+  display: inline-block;
+  color: var(--color-dimgray-200);
+  width: 294px;
+  height: 50px;
+}
+.registerFormFrameChild {
+  border: 3px solid var(--color-dimgray-100);
+  background-color: var(--pure-white);
+  position: absolute;
+  top: 64px;
+  left: calc(50% + 13px);
+  border-radius: var(--br-5xs);
+  box-sizing: border-box;
+  width: 338px;
+  height: 44px;
+}
+.setPassword {
+  position: absolute;
+  top: 148px;
+  left: calc(50% - 206px);
+  display: inline-block;
+  color: var(--color-dimgray-200);
+  width: 294px;
+  height: 50px;
+}
+.registerFormFrameItem {
+  border: 3px solid var(--color-dimgray-100);
+  background-color: var(--pure-white);
+  position: absolute;
+  top: 144px;
+  left: calc(50% + 13px);
+  border-radius: var(--br-5xs);
+  box-sizing: border-box;
+  width: 338px;
+  height: 44px;
+}
+.personalInformation {
+  position: absolute;
+  top: 270px;
+  left: calc(50% - 404px);
+  font-size: var(--font-size-11xl);
+  display: inline-block;
+  color: var(--color-orangered-100);
+  width: 322px;
+  height: 44px;
+}
+.rectangleInput,
+.registerFormFrameChild1,
+.registerFormFrameInner {
+  border: 3px solid var(--color-dimgray-100);
+  background-color: var(--pure-white);
+  position: absolute;
+  top: 393px;
+  left: calc(50% - 404px);
+  border-radius: var(--br-5xs);
+  box-sizing: border-box;
+  width: 338px;
+  height: 44px;
+}
+.rectangleInput,
+.registerFormFrameChild1 {
+  top: 1020px;
+}
+.registerFormFrameChild1 {
+  top: 393px;
+  left: calc(50% + 111px);
+}
+.birthDate,
+.name,
+.surname,
+.theSeriesAnd {
+  position: absolute;
+  top: 355px;
+  left: calc(50% - 384px);
+  display: inline-block;
+  width: 178px;
+  height: 43px;
+}
+.birthDate,
+.surname,
+.theSeriesAnd {
+  top: 352px;
+  left: calc(50% + 132px);
+}
+.birthDate,
+.theSeriesAnd {
+  top: 800px;
+  left: calc(50% - 381px);
+}
+.theSeriesAnd {
+  top: 966px;
+  left: calc(50% - 384px);
+  width: 678px;
+}
+.registerFormFrameChild2,
+.registerFormFrameChild3 {
+  border: 3px solid var(--color-dimgray-100);
+  background-color: var(--pure-white);
+  position: absolute;
+  top: 510px;
+  left: calc(50% - 404px);
+  border-radius: var(--br-5xs);
+  box-sizing: border-box;
+  width: 338px;
+  height: 44px;
+}
+.registerFormFrameChild3 {
+  left: calc(50% + 111px);
+}
+.email,
+.phoneNumber {
+  position: absolute;
+  top: 472px;
+  left: calc(50% - 384px);
+  display: inline-block;
+  width: 178px;
+  height: 43px;
+}
+.phoneNumber {
+  top: 469px;
+  left: calc(50% + 132px);
+  width: 280px;
+}
+.registerFormFrameChild4,
+.registerFormFrameChild5,
+.registerFormFrameChild6 {
+  border: 3px solid var(--color-dimgray-100);
+  background-color: var(--pure-white);
+  position: absolute;
+  top: 627px;
+  left: calc(50% - 404px);
+  border-radius: var(--br-5xs);
+  box-sizing: border-box;
+  width: 338px;
+  height: 44px;
+}
+.registerFormFrameChild5,
+.registerFormFrameChild6 {
+  top: 701px;
+  left: calc(50% + 111px);
+}
+.registerFormFrameChild6 {
+  top: 627px;
+}
+.address,
+.serviceRules {
+  position: absolute;
+  top: 588px;
+  left: calc(50% - 384px);
+  display: inline-block;
+  width: 178px;
+  height: 43px;
+}
+.serviceRules {
+  top: 1100px;
+  left: calc(50% - 381px);
+  width: 237px;
+}
+.registerFormFrameChild10,
+.registerFormFrameChild7,
+.registerFormFrameChild8,
+.registerFormFrameChild9 {
+  border: 3px solid var(--color-dimgray-100);
+  background-color: var(--pure-white);
+  position: absolute;
+  top: 700px;
+  left: calc(50% - 404px);
+  border-radius: var(--br-5xs);
+  box-sizing: border-box;
+  width: 338px;
+  height: 44px;
+}
+.registerFormFrameChild10,
+.registerFormFrameChild8,
+.registerFormFrameChild9 {
+  top: 799px;
+  left: calc(50% - 213px);
+  width: 84px;
+}
+.registerFormFrameChild10,
+.registerFormFrameChild9 {
+  left: calc(50% - 108px);
+}
+.registerFormFrameChild10 {
+  left: calc(50% - 3px);
+}
+.iHaveRead,
+.linkToService {
+  position: absolute;
+  top: 1156px;
+  left: calc(50% - 283px);
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  display: inline-block;
+  width: 585px;
+  height: 20px;
+}
+.linkToService {
+  top: 0;
+  left: calc(50% - 93px);
+  font-family: var(--body-desktop-s-regular);
+  color: var(--color-mediumblue);
+  text-align: left;
+  width: 172px;
+  height: 12px;
+}
+.linkDoRegulaminu,
+.linkToServiceRules {
+  position: absolute;
+  width: 198px;
+  height: 36px;
+}
+.linkToServiceRules {
+  top: 0;
+  left: calc(50% - 99px);
+  background-color: var(--color-gainsboro-200);
+}
+.linkDoRegulaminu {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 1240px;
+  left: calc(50% - 366px);
+}
+.icons,
+.label {
+  position: relative;
+  display: none;
+}
+.icons {
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.label {
+  font-size: var(--body-mobile-m-regular-size);
+  line-height: 17px;
+  font-family: var(--body-desktop-s-regular);
+  color: var(--pure-white);
+  text-align: left;
+}
+.buttonmain {
+  border-radius: var(--corner-rad-pill);
+  background-color: var(--color-orangered-200);
+  border: 2px solid var(--color-orangered-200);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xs);
+  gap: var(--gap-5xs);
+}
+.buttonmain,
+.buttonmainWrapper,
+.register {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 84.5px);
+  width: 169px;
+  height: 51px;
+}
+.register {
+  top: 17px;
+  left: calc(50% - 34.5px);
+  font-size: var(--body-mobile-m-regular-size);
+  line-height: 17px;
+  display: flex;
+  font-family: var(--body-desktop-s-regular);
+  color: var(--pure-white);
+  text-align: left;
+  align-items: center;
+  width: 92px;
+  height: 18px;
+}
+.groupParent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 1334px;
+  left: calc(50% - 67px);
+  width: 169px;
+  height: 51px;
+}
+.checkboxcheckedCheckboxOnl {
+  position: absolute;
+  top: 1154px;
+  left: calc(50% - 345px);
+}
+.registerFormFrame {
+  position: absolute;
+  top: 442px;
+  left: calc(50% - 520px);
+  width: 1068px;
+  height: 1434px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--color-dimgray-300);
+  font-family: var(--body-desktop-s-regular);
+}

@@ -1,0 +1,211 @@
+.rulesChild {
+  position: absolute;
+  top: 229px;
+  left: calc(50% - 1425px);
+  background-color: var(--color-orangered-100);
+  width: 2928px;
+  height: 1625px;
+}
+.bookYourCar,
+.ourLocations,
+.serviceRules {
+  position: absolute;
+  top: 95px;
+  right: 803px;
+  line-height: 28px;
+}
+.bookYourCar,
+.serviceRules {
+  right: 604px;
+}
+.serviceRules {
+  right: 415px;
+}
+.icons,
+.label {
+  position: relative;
+}
+.icons {
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.label {
+  font-size: var(--body-mobile-m-regular-size);
+  line-height: 17px;
+  font-family: var(--body-desktop-s-regular);
+  color: var(--pure-white);
+  text-align: left;
+}
+.buttonmain {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: var(--corner-rad-pill);
+  background-color: var(--color-orangered-100);
+  border: 2px solid var(--color-orangered-100);
+  box-sizing: border-box;
+  width: 169px;
+  height: 51px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xs);
+  gap: var(--gap-5xs);
+}
+.register,
+.screenshotFrom2023102012 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+}
+.register {
+  top: 92px;
+  right: 150px;
+  width: 169px;
+  height: 51px;
+}
+.screenshotFrom2023102012 {
+  top: 54px;
+  left: 49px;
+  width: 296px;
+  height: 138px;
+  background-image: url(/screenshotfrom20231020121530removebgpreview14@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.bookCar,
+.ourLocations1,
+.serviceRules1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-gainsboro-200);
+  position: absolute;
+  top: 83px;
+  right: 776px;
+  width: 178px;
+  height: 67px;
+}
+.bookCar,
+.serviceRules1 {
+  right: 589px;
+  width: 163px;
+}
+.serviceRules1 {
+  right: 391px;
+  width: 159px;
+}
+.rulesItem {
+  position: absolute;
+  top: 229px;
+  left: 0;
+  background-color: var(--color-orangered-100);
+  width: 1440px;
+  height: 1625px;
+}
+.serviceRules2 {
+  position: absolute;
+  top: 323px;
+  left: calc(50% - 212px);
+  font-size: var(--font-size-26xl);
+  line-height: 24px;
+  display: flex;
+  color: var(--pure-white);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 452px;
+  height: 99px;
+}
+.groupChild {
+  position: absolute;
+  top: 21px;
+  left: calc(50% - 529.5px);
+  border-radius: var(--br-26xl);
+  background-color: var(--pure-white);
+  width: 1059px;
+  height: 1247px;
+}
+.blankLine1 {
+  line-height: 17px;
+}
+.blankLine {
+  margin-block-start: 0;
+  margin-block-end: 7px;
+}
+.reservationAndBookingRules1 {
+  line-height: 24px;
+}
+.reservationAndBookingRules {
+  margin-block-start: 0;
+  margin-block-end: 7px;
+  font-size: var(--font-size-xl);
+}
+.byMakingAReservationOrRen {
+  margin: 0;
+}
+.reservationAndBookingContainer1 {
+  line-break: anywhere;
+  width: 100%;
+}
+.reservationAndBookingContainer {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 443.5px);
+  white-space: pre-wrap;
+  display: flex;
+  align-items: center;
+  width: 916px;
+  height: 1232px;
+}
+.rectangleParent {
+  position: absolute;
+  top: 445px;
+  left: calc(50% - 516px);
+  width: 1059px;
+  height: 1268px;
+  text-align: center;
+  font-size: var(--body-mobile-m-regular-size);
+  color: var(--color-black);
+}
+.groupItem,
+.rulesInner {
+  position: absolute;
+  left: 0;
+  width: 2007px;
+  height: 236px;
+}
+.groupItem {
+  top: 0;
+  background-color: var(--color-whitesmoke);
+}
+.rulesInner {
+  top: 1854px;
+}
+.image16Icon {
+  position: absolute;
+  top: 1900px;
+  left: calc(50% - 133px);
+  width: 321px;
+  height: 143px;
+  object-fit: cover;
+}
+.rules {
+  position: relative;
+  background-color: var(--pure-white);
+  width: 100%;
+  height: 2090px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-orangered-100);
+  font-family: var(--body-desktop-s-regular);
+}

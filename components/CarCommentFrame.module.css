@@ -1,0 +1,135 @@
+.reallyComfortableCar {
+  position: absolute;
+  top: 182px;
+  left: calc(50% - 195px);
+  display: inline-block;
+  font-family: var(--font-inter);
+  width: 360px;
+  height: 84px;
+}
+.ratingAndReviews {
+  position: absolute;
+  top: 21px;
+  left: calc(50% - 494px);
+  font-size: var(--font-size-7xl);
+  line-height: 28px;
+  display: inline-block;
+  color: var(--color-black);
+  width: 246px;
+  height: 46px;
+}
+.image11Icon,
+.image12Icon {
+  position: absolute;
+  top: 74px;
+  left: calc(50% - 48px);
+  width: 37px;
+  height: 44.9px;
+  object-fit: cover;
+}
+.image12Icon {
+  top: 141.3px;
+  left: calc(50% - 104.6px);
+  width: 149.6px;
+  height: 29.4px;
+}
+.lewastzralka,
+.prawastrzalka {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 118px;
+  right: 111px;
+  border-radius: var(--br-5xs);
+  width: 42px;
+  height: 42px;
+  background-image: url(/image32@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.lewastzralka {
+  right: 930px;
+  background-image: url(/image321@2x.png);
+}
+.icons,
+.label {
+  position: relative;
+}
+.icons {
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.label {
+  font-size: var(--body-mobile-m-regular-size);
+  line-height: 17px;
+  font-family: var(--body-desktop-s-regular);
+  color: var(--color-orangered-100);
+  text-align: left;
+}
+.buttonmain,
+.dodajKomentarz {
+  position: absolute;
+  width: 163px;
+  height: 43px;
+}
+.buttonmain {
+  top: 0;
+  left: calc(50% - 81.5px);
+  border-radius: var(--corner-rad-pill);
+  background-color: var(--pure-white);
+  border: 2px solid var(--color-orangered-100);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xs);
+  gap: var(--gap-5xs);
+}
+.dodajKomentarz {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 13px;
+  left: calc(50% + 166px);
+}
+.germany,
+.hans {
+  position: absolute;
+  top: 118px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hans {
+  left: calc(50% - 100px);
+  color: var(--color-black);
+  width: 76px;
+  height: 18px;
+}
+.germany {
+  left: calc(50% - 31px);
+  width: 96px;
+  height: 19px;
+}
+.carCommentFrame {
+  position: absolute;
+  top: 1476px;
+  left: calc(50% - 743px);
+  width: 1006px;
+  height: 224px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--body-mobile-m-regular-size);
+  color: var(--color-dimgray-100);
+  font-family: var(--body-desktop-s-regular);
+}

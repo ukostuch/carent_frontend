@@ -1,0 +1,108 @@
+.login {
+  position: absolute;
+  top: 36px;
+  left: calc(50% - 289px);
+  display: inline-block;
+  width: 527px;
+  height: 58px;
+}
+.icons,
+.label {
+  position: relative;
+}
+.icons {
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.label {
+  font-size: var(--body-mobile-m-regular-size);
+  line-height: 17px;
+  font-family: var(--body-desktop-s-regular);
+  color: var(--color-orangered-100);
+  text-align: left;
+}
+.buttonmain,
+.buttonmainWrapper {
+  position: absolute;
+  width: 142px;
+  height: 43px;
+}
+.buttonmain {
+  top: 0;
+  left: calc(50% - 71px);
+  border-radius: var(--corner-rad-pill);
+  background-color: var(--pure-white);
+  border: 2px solid var(--color-orangered-100);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xs);
+  gap: var(--gap-5xs);
+}
+.buttonmainWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 341px;
+  left: calc(50% - 79px);
+}
+.loginFrameChild,
+.loginFrameItem {
+  border: 3px solid var(--color-dimgray-100);
+  background-color: var(--pure-white);
+  position: absolute;
+  top: 149px;
+  left: calc(50% - 177px);
+  border-radius: var(--br-5xs);
+  box-sizing: border-box;
+  width: 338px;
+  height: 44px;
+}
+.loginFrameItem {
+  top: 239px;
+}
+.ifYouHavent {
+  position: absolute;
+  top: 408px;
+  left: calc(50% - 352px);
+  font-size: var(--font-size-xl);
+  line-height: 30px;
+  display: flex;
+  color: var(--color-black);
+  text-align: left;
+  align-items: center;
+  width: 752px;
+  height: 108px;
+}
+.image2Icon,
+.image3Icon {
+  position: absolute;
+  top: 140px;
+  left: calc(50% - 260px);
+  border-radius: var(--br-5xs);
+  width: 57px;
+  height: 59px;
+  object-fit: cover;
+}
+.image3Icon {
+  top: 231px;
+}
+.loginFrame {
+  position: absolute;
+  top: 346px;
+  left: calc(50% - 420px);
+  width: 892px;
+  height: 662px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-small);
+  color: var(--color-orangered-100);
+  font-family: var(--body-desktop-s-regular);
+}

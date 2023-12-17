@@ -1,0 +1,599 @@
+.xv20is18625x4161Icon {
+  position: absolute;
+  top: 259px;
+  right: 34px;
+  width: 740px;
+  height: 458px;
+  object-fit: cover;
+}
+.homepageChild {
+  position: absolute;
+  top: 685px;
+  left: 125px;
+  border-radius: var(--br-26xl);
+  background-color: rgba(217, 217, 217, 0.76);
+  width: 868px;
+  height: 604px;
+}
+.findYourBest,
+.youCanReceive {
+  position: absolute;
+  left: calc(50% - 632px);
+  display: inline-block;
+}
+.findYourBest {
+  top: 269px;
+  font-size: var(--font-size-26xl);
+  letter-spacing: -0.02em;
+  line-height: 70px;
+  color: var(--darkness);
+  width: 540px;
+}
+.youCanReceive {
+  top: 428px;
+  font-size: var(--body-mobile-m-regular-size);
+  line-height: 20px;
+  color: var(--elephant);
+  width: 369px;
+}
+.icons,
+.label {
+  position: relative;
+}
+.icons {
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.label {
+  font-size: var(--font-size-lg);
+  line-height: 17px;
+  font-family: var(--body-desktop-s-regular);
+  color: var(--pure-white);
+  text-align: left;
+}
+.buttonmain,
+.ourOfferButton {
+  position: absolute;
+  width: 191px;
+  height: 61px;
+}
+.buttonmain {
+  top: 0;
+  left: calc(50% - 95.5px);
+  border-radius: var(--corner-rad-pill);
+  background-color: var(--color-orangered-100);
+  border: 2px solid var(--color-orangered-100);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xs);
+  gap: var(--gap-5xs);
+}
+.ourOfferButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 549px;
+  left: calc(50% - 632px);
+}
+.homepageInner,
+.homepageItem {
+  position: absolute;
+  border-radius: var(--br-26xl);
+}
+.homepageItem {
+  top: 714px;
+  right: -208px;
+  background-color: var(--color-orangered-100);
+  width: 1149px;
+  height: 550px;
+}
+.homepageInner {
+  top: 783px;
+  left: -317px;
+  background-color: rgba(96, 96, 96, 0.89);
+  border: 1px solid var(--color-dimgray-100);
+  box-sizing: border-box;
+  width: 838px;
+  height: 391px;
+}
+.ecoFriendly {
+  position: absolute;
+  top: 110px;
+  right: 0;
+  display: inline-block;
+  width: 271px;
+  height: 55px;
+}
+.image4Icon {
+  position: absolute;
+  top: 0;
+  right: 155px;
+  width: 100px;
+  height: 85px;
+  object-fit: cover;
+}
+.ourCompanyIs {
+  position: absolute;
+  top: 178px;
+  right: 73px;
+  font-size: var(--body-mobile-m-regular-size);
+  line-height: 25px;
+  text-align: center;
+  display: inline-block;
+  width: 226px;
+  height: 261px;
+}
+.ecoFriendlyParent {
+  position: absolute;
+  top: 814px;
+  right: 578px;
+  width: 299px;
+  height: 439px;
+  color: var(--pure-white);
+}
+.image5Icon {
+  position: absolute;
+  top: 0;
+  right: 125px;
+  width: 100px;
+  height: 85px;
+  object-fit: cover;
+}
+.inOurOffer {
+  position: absolute;
+  top: 183px;
+  right: 57px;
+  font-size: var(--body-mobile-m-regular-size);
+  line-height: 25px;
+  text-align: center;
+  display: inline-block;
+  width: 225px;
+  height: 177px;
+}
+.familyFriendlyParent {
+  position: absolute;
+  top: 814px;
+  right: 296px;
+  width: 282px;
+  height: 360px;
+  color: var(--pure-white);
+}
+.image6Icon {
+  position: absolute;
+  top: 0;
+  right: 126px;
+  width: 100px;
+  height: 85px;
+  object-fit: cover;
+}
+.youCanRent {
+  position: absolute;
+  top: 179px;
+  right: 78px;
+  font-size: var(--body-mobile-m-regular-size);
+  line-height: 25px;
+  text-align: center;
+  display: inline-block;
+  width: 183px;
+  height: 126px;
+}
+.budgetFriendlyParent {
+  position: absolute;
+  top: 814px;
+  right: 25px;
+  width: 271px;
+  height: 305px;
+  color: var(--pure-white);
+}
+.howItWorks {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 270px);
+  letter-spacing: -0.02em;
+  line-height: 70px;
+  display: inline-block;
+  width: 540px;
+}
+.followTheseSteps {
+  margin: 0;
+}
+.followTheseStepsContainer {
+  position: absolute;
+  top: 74px;
+  left: calc(50% - 265px);
+  font-size: var(--font-size-xl);
+  letter-spacing: -0.02em;
+  line-height: 23px;
+  display: inline-block;
+  color: var(--color-black);
+  width: 530px;
+  height: 119px;
+}
+.howItWorksParent {
+  position: absolute;
+  top: 1302px;
+  left: calc(50% - 258px);
+  width: 540px;
+  height: 193px;
+  text-align: center;
+  font-size: var(--font-size-26xl);
+}
+.homepageChild1,
+.rectangleDiv {
+  position: absolute;
+  top: 1494px;
+  border-radius: var(--br-26xl);
+  background-color: var(--pure-white);
+  border: 5px solid var(--color-black);
+  box-sizing: border-box;
+  width: 302px;
+  height: 204px;
+}
+.rectangleDiv {
+  left: calc(50% - 137px);
+}
+.homepageChild1 {
+  right: 116px;
+}
+.bookYourCar,
+.pickUpDate {
+  position: absolute;
+  top: 1517px;
+  letter-spacing: -0.02em;
+  line-height: 70px;
+  display: inline-block;
+  text-align: center;
+  width: 211px;
+  height: 52px;
+}
+.pickUpDate {
+  left: calc(50% - 92px);
+}
+.bookYourCar {
+  right: 155px;
+}
+.image10Icon,
+.image9Icon {
+  position: absolute;
+  width: 63px;
+  height: 64px;
+  object-fit: cover;
+}
+.image9Icon {
+  top: 1441px;
+  left: calc(50% - 17px);
+}
+.image10Icon {
+  top: 1440px;
+  right: 231px;
+}
+.groupChild {
+  position: absolute;
+  top: 54px;
+  left: 0;
+  border-radius: var(--br-26xl);
+  background-color: var(--pure-white);
+  border: 5px solid var(--color-black);
+  box-sizing: border-box;
+  width: 302px;
+  height: 204px;
+}
+.chooseLocation {
+  position: absolute;
+  top: 77px;
+  left: 47px;
+  letter-spacing: -0.02em;
+  line-height: 70px;
+  display: inline-block;
+  width: 211px;
+  height: 52px;
+}
+.image8Icon {
+  position: absolute;
+  top: 0;
+  left: 127px;
+  width: 58px;
+  height: 67px;
+  object-fit: cover;
+}
+.youCanChoose {
+  position: absolute;
+  top: 139px;
+  left: 54px;
+  font-size: var(--body-mobile-m-regular-size);
+  letter-spacing: -0.02em;
+  line-height: 25px;
+  display: inline-block;
+  color: var(--color-gray-100);
+  width: 197px;
+  height: 105px;
+}
+.rectangleParent,
+.wheneverYouWant {
+  position: absolute;
+  text-align: center;
+}
+.rectangleParent {
+  top: 1440px;
+  left: 137px;
+  width: 302px;
+  height: 258px;
+}
+.wheneverYouWant {
+  top: 1579px;
+  left: calc(50% - 99px);
+  letter-spacing: -0.02em;
+  line-height: 25px;
+  display: inline-block;
+  color: var(--color-gray-100);
+  width: 232px;
+  height: 105px;
+}
+.clickSearchAnd,
+.label1,
+.wheneverYouWant {
+  font-size: var(--body-mobile-m-regular-size);
+}
+.clickSearchAnd {
+  position: absolute;
+  top: 1579px;
+  right: 162px;
+  letter-spacing: -0.02em;
+  line-height: 25px;
+  display: inline-block;
+  color: var(--color-gray-100);
+  text-align: center;
+  width: 197px;
+  height: 105px;
+}
+.label1 {
+  position: relative;
+  line-height: 17px;
+  display: none;
+  font-family: var(--body-desktop-s-regular);
+  color: var(--pure-white);
+  text-align: left;
+}
+.buttonmain1 {
+  border-radius: var(--corner-rad-pill);
+  background-color: var(--color-orangered-200);
+  border: 2px solid var(--color-orangered-200);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xs);
+  gap: var(--gap-5xs);
+}
+.buttonmain1,
+.buttonmainWrapper,
+.search {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 84.5px);
+  width: 169px;
+  height: 51px;
+}
+.search {
+  top: 17px;
+  left: calc(50% - 30.5px);
+  font-size: var(--body-mobile-m-regular-size);
+  line-height: 17px;
+  display: flex;
+  font-family: var(--body-desktop-s-regular);
+  color: var(--pure-white);
+  text-align: left;
+  align-items: center;
+  width: 92px;
+  height: 18px;
+}
+.ourOfferButton1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 1747px;
+  left: calc(50% - 64px);
+  width: 169px;
+  height: 51px;
+}
+.homepageChild2 {
+  position: absolute;
+  top: 1836px;
+  left: -1117px;
+  background-color: var(--pure-white);
+  border: 1px solid rgba(0, 0, 0, 0.39);
+  box-sizing: border-box;
+  width: 3348px;
+  height: 264px;
+}
+.buttonmain2,
+.shareYourOpinion {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttonmain2 {
+  top: 0;
+  left: calc(50% - 99.5px);
+  border-radius: var(--corner-rad-pill);
+  background-color: var(--color-orangered-100);
+  border: 2px solid var(--color-orangered-200);
+  box-sizing: border-box;
+  width: 199px;
+  height: 65px;
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-xs);
+  gap: var(--gap-5xs);
+}
+.shareYourOpinion {
+  top: 12px;
+  left: calc(50% - 77.5px);
+  font-size: var(--body-mobile-m-regular-size);
+  line-height: 17px;
+  font-family: var(--body-desktop-s-regular);
+  color: var(--pure-white);
+  text-align: center;
+  width: 159px;
+  height: 41px;
+}
+.commentsButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 2132px;
+  left: calc(50% - 76px);
+  width: 199px;
+  height: 65px;
+}
+.groupDiv,
+.groupItem {
+  position: absolute;
+  left: 0;
+  width: 2159px;
+  height: 236px;
+}
+.groupItem {
+  top: 0;
+  background-color: var(--color-whitesmoke);
+}
+.groupDiv {
+  top: 2215px;
+}
+.bookYourCar1,
+.ourLocations,
+.serviceRules {
+  position: absolute;
+  top: 92px;
+  right: 796px;
+  font-size: var(--font-size-xl);
+  line-height: 28px;
+}
+.bookYourCar1,
+.serviceRules {
+  right: 597px;
+}
+.serviceRules {
+  right: 408px;
+}
+.label3 {
+  position: relative;
+  font-size: var(--body-mobile-m-regular-size);
+  line-height: 17px;
+  font-family: var(--body-desktop-s-regular);
+  color: var(--pure-white);
+  text-align: left;
+}
+.buttonmain3 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: var(--corner-rad-pill);
+  background-color: var(--color-orangered-100);
+  border: 2px solid var(--color-orangered-100);
+  box-sizing: border-box;
+  width: 169px;
+  height: 51px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xs);
+  gap: var(--gap-5xs);
+}
+.registerButton,
+.screenshotFrom2023102012 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+}
+.registerButton {
+  top: 89px;
+  right: 143px;
+  width: 169px;
+  height: 51px;
+}
+.screenshotFrom2023102012 {
+  top: 51px;
+  left: 56px;
+  width: 296px;
+  height: 138px;
+  background-image: url(/screenshotfrom20231020121530removebgpreview14@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.bookyourCar,
+.ourLocations1,
+.serviceRules1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-gainsboro-200);
+  position: absolute;
+  top: 80px;
+  right: 769px;
+  width: 178px;
+  height: 67px;
+}
+.bookyourCar,
+.serviceRules1 {
+  right: 582px;
+  width: 163px;
+}
+.serviceRules1 {
+  right: 384px;
+  width: 159px;
+}
+.image17Icon {
+  position: absolute;
+  top: 2260px;
+  left: calc(50% - 131px);
+  width: 321px;
+  height: 143px;
+  object-fit: cover;
+}
+.carent {
+  color: var(--color-orangered-100);
+}
+.welcomeToCarentContainer {
+  position: absolute;
+  top: 885px;
+  left: 73px;
+  font-size: var(--font-size-6xl);
+  font-weight: 600;
+  text-align: center;
+  display: inline-block;
+  width: 392px;
+  height: 378px;
+  color: var(--pure-white);
+}
+.homepage {
+  position: relative;
+  background-color: var(--pure-white);
+  width: 100%;
+  height: 2450px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-7xl);
+  color: var(--color-orangered-100);
+  font-family: var(--body-desktop-s-regular);
+}

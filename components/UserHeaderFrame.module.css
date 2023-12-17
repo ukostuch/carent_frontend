@@ -1,0 +1,49 @@
+.userLogo {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 12px;
+  right: 194px;
+  width: 81px;
+  height: 81px;
+  background-image: url(/image43@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.loggedIn,
+.myUsername {
+  position: absolute;
+  right: 16px;
+  display: flex;
+  align-items: center;
+}
+.loggedIn {
+  top: 66px;
+  line-height: 17px;
+  justify-content: center;
+  width: 178px;
+  height: 17px;
+}
+.myUsername {
+  top: 22px;
+  line-height: 16.53px;
+  font-family: var(--font-roboto);
+  text-align: left;
+  width: 146px;
+  height: 44px;
+}
+.loginHeaderFrame {
+  position: absolute;
+  top: 58px;
+  right: 44px;
+  width: 302px;
+  height: 108px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--body-desktop-s-regular);
+}

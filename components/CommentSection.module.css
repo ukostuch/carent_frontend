@@ -1,0 +1,155 @@
+.location,
+.pickUpDate,
+.pirice,
+.returnDate {
+  position: absolute;
+  top: 511px;
+  left: calc(50% - 79px);
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  width: 214px;
+  height: 28px;
+}
+.location,
+.pirice,
+.returnDate {
+  top: 549px;
+}
+.location,
+.pirice {
+  top: 587px;
+}
+.location {
+  top: 625px;
+}
+.yourCountry,
+.yourName {
+  position: absolute;
+  top: 46px;
+  left: calc(50% - 364px);
+  font-size: var(--font-size-11xl);
+  display: inline-block;
+  color: var(--color-dimgray-300);
+  width: 278px;
+  height: 40px;
+}
+.yourCountry {
+  top: 115px;
+}
+.countryFormselect,
+.inputstandard {
+  width: 342px;
+  position: absolute;
+  top: 115px;
+  left: calc(50% - 98px);
+}
+.inputstandard {
+  width: 344px;
+  border: 0;
+  background-color: transparent;
+  top: 46px;
+  left: calc(50% - 100px);
+}
+.icons,
+.label {
+  position: relative;
+}
+.icons {
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.label {
+  font-size: var(--body-mobile-m-regular-size);
+  line-height: 17px;
+  font-family: var(--body-desktop-s-regular);
+  color: var(--color-orangered-100);
+  text-align: left;
+}
+.buttonmain,
+.send {
+  position: absolute;
+  width: 142px;
+  height: 43px;
+}
+.buttonmain {
+  top: 0;
+  left: calc(50% - 71px);
+  border-radius: var(--corner-rad-pill);
+  background-color: var(--pure-white);
+  border: 2px solid var(--color-orangered-100);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xs);
+  gap: var(--gap-5xs);
+}
+.send {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 629px;
+  left: calc(50% - 40px);
+}
+.commentSectionChild,
+.commentSectionItem {
+  position: absolute;
+  border-radius: var(--br-5xs);
+}
+.commentSectionChild {
+  top: 266px;
+  left: 234px;
+  background-color: var(--color-gainsboro-200);
+  width: 672px;
+  height: 258px;
+}
+.commentSectionItem {
+  border: 4px solid var(--color-lightgray);
+  background-color: var(--color-gainsboro-500);
+  top: 226px;
+  left: calc(50% - 331px);
+  box-sizing: border-box;
+  width: 716px;
+  height: 320px;
+}
+.carModel,
+.yaris {
+  position: absolute;
+  display: inline-block;
+}
+.carModel {
+  top: 174px;
+  left: calc(50% - 358px);
+  font-size: var(--font-size-11xl);
+  color: var(--color-dimgray-300);
+  width: 278px;
+  height: 40px;
+}
+.yaris {
+  top: 182px;
+  left: 467px;
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  color: var(--color-black);
+  width: 326px;
+  height: 32px;
+}
+.commentSection {
+  position: absolute;
+  top: 442px;
+  left: calc(50% - 538px);
+  width: 1108px;
+  height: 700px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--body-mobile-m-regular-size);
+  color: var(--pure-white);
+  font-family: var(--body-desktop-s-regular);
+}

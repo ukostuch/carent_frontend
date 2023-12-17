@@ -1,0 +1,20 @@
+.tpay {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-whitesmoke-100);
+  position: absolute;
+  top: 55px;
+  left: calc(50% - 406px);
+  border-radius: var(--br-5xs);
+  width: 817px;
+  height: 425px;
+}
+.tpayFrame {
+  position: absolute;
+  top: 1170px;
+  left: calc(50% - 524px);
+  width: 1066px;
+  height: 526px;
+  overflow: hidden;
+}

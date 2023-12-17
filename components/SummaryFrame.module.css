@@ -1,0 +1,131 @@
+.summaryFrameChild {
+  position: absolute;
+  top: 7px;
+  left: calc(50% - 536px);
+  background-color: var(--color-gainsboro-200);
+  border: 1px solid var(--color-gray-200);
+  box-sizing: border-box;
+  width: 1066px;
+  height: 445px;
+}
+.driverIdentity,
+.location,
+.model,
+.pickUpDate,
+.priceZ,
+.returnDate {
+  position: absolute;
+  top: 392px;
+  left: calc(50% - 1px);
+  line-height: 28px;
+  display: inline-block;
+  width: 165px;
+  height: 37px;
+}
+.location,
+.model,
+.pickUpDate,
+.priceZ,
+.returnDate {
+  top: 351px;
+  left: calc(50% + 25px);
+  width: 134px;
+}
+.location,
+.model,
+.pickUpDate,
+.priceZ {
+  top: 307px;
+  left: calc(50% + 16px);
+}
+.location,
+.model,
+.priceZ {
+  top: 261px;
+  left: calc(50% + 52px);
+  width: 97px;
+}
+.model,
+.priceZ {
+  top: 224px;
+  left: calc(50% + 64px);
+}
+.model {
+  top: 178px;
+}
+.div,
+.div1,
+.div2,
+.krakwBieanowska15,
+.myUsername,
+.taigun {
+  position: absolute;
+  top: 177px;
+  left: calc(50% + 176px);
+  font-size: var(--body-mobile-m-regular-size);
+  line-height: 16.53px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  width: 206px;
+  height: 29px;
+}
+.div,
+.div1,
+.div2,
+.krakwBieanowska15,
+.myUsername {
+  top: 223px;
+  left: calc(50% + 178px);
+}
+.div1,
+.div2,
+.krakwBieanowska15,
+.myUsername {
+  top: 262px;
+  left: calc(50% + 176px);
+}
+.div1,
+.div2,
+.myUsername {
+  top: 352px;
+  left: calc(50% + 177px);
+}
+.div2,
+.myUsername {
+  top: 308px;
+}
+.myUsername {
+  top: 393px;
+  left: calc(50% + 178px);
+}
+.summary {
+  position: absolute;
+  top: 83px;
+  left: calc(50% - 66px);
+  font-size: var(--font-size-13xl);
+  line-height: 28px;
+  display: inline-block;
+  width: 410px;
+  height: 44px;
+}
+.exterExteriorRightFrontThrIcon {
+  position: absolute;
+  top: 57px;
+  left: 76px;
+  width: 456px;
+  height: 338px;
+  object-fit: cover;
+}
+.summaryFrame {
+  position: absolute;
+  top: 594px;
+  left: calc(50% - 534px);
+  width: 1092px;
+  height: 452px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--body-desktop-s-regular);
+}
