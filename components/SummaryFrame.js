@@ -28,7 +28,7 @@ const SummaryFrame = ({
       <img
         className={styles.exterExteriorRightFrontThrIcon}
         alt=""
-        src="/exterexteriorrightfrontthreequarter29-3@2x.png"
+        src={zdjSamochoduId}
       />
     </div>
   );

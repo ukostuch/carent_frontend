@@ -166,3 +166,40 @@
   color: var(--color-orangered-100);
   font-family: var(--body-desktop-s-regular);
 }
+
+.confirmButton {
+  cursor: pointer;
+  background-color: var(--color-orangered-100);
+  padding: 12px 24px;
+  border-radius: 4px;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.confirmButton:hover {
+  background-color: var(--color-orangered-80);
+}
+
+.confirmButton b {
+  font-size: var(--body-mobile-m-regular-size);
+  line-height: 17px;
+  font-family: var(--body-desktop-s-regular);
+  color: white;
+  text-align: left;
+}
+
+.confirmButton {
+  position: absolute;
+  top: 1050px; 
+  right: 705px; 
+}
+
+.reservationStatus {
+  position: absolute;
+  top: 1100px; 
+  right: 705px;
+  font-size: var(--body-mobile-m-regular-size);
+  line-height: 17px;
+  font-family: var(--body-desktop-s-regular);
+  color: var(--color-orangered-100);
+}

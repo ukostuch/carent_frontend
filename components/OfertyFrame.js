@@ -841,9 +841,11 @@ export default OfertyFrame;*/
 import { useEffect, useState, useCallback } from "react";
 import { useRouter } from "next/router";
 import Oferta1 from "./Oferta1";
+import { DatePicker, Select } from "antd";
 import styles from "./OfertyFrame.module.css";
 
-const OfertyFrame = ({ filteredCars }) => {
+
+const OfertyFrame = ({ filteredCars, selectedCar}) => {
   const router = useRouter();
   const [currentPage, setCurrentPage] = useState(0);
   const carsPerPage = 12;
@@ -866,12 +868,20 @@ const OfertyFrame = ({ filteredCars }) => {
     visibleCars.push(filteredCars[i]);
   }
 
-  const onCarClick = useCallback((carId) => {
-    router.push({
-      pathname: "/Car",
-      query: { carId },
-    });
-  }, [router]);
+  const onCarClick = useCallback(
+    (carId) => {
+      router.push({
+        pathname: "/Car",
+        query: { 
+          carId, 
+          locationId: selectedCar.locationId, 
+          pickupDate: selectedCar.dateFrom, 
+          returnDate: selectedCar.dateTo,
+        },
+      });
+    },
+    [router, selectedCar],
+  );
 
   return (
     <div className={styles.ofertyFrameContainer}>

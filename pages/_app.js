@@ -1,3 +1,4 @@
+//DZIALA
 import { Fragment, useEffect } from "react";
 import Head from "next/head";
 
@@ -41,7 +42,6 @@ export default function MyApp(props) {
         />
       </Head>
       <ThemeProvider theme={muiTheme}>
-        {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
         <CssBaseline />
         <Component {...pageProps} />
       </ThemeProvider>

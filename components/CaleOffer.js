@@ -1013,7 +1013,7 @@ export default CaleOffer;*/
 
 //NAJLEPSZA-dzialaja:samalokalizacja, lokalizacja+data, na poczatku sa samochody, dzoala tez fuel i cartype(tylko po wybraniu trzeba nacisnac search)
 
-import "antd/dist/antd.min.css";
+/*import "antd/dist/antd.min.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import styles from "./CaleOffer.module.css";
 import { useState, useEffect, useCallback } from "react";
@@ -1033,6 +1033,7 @@ const CaleOffer = () => {
   const [dateTo, setDateTo] = useState(null);
   const [filteredCars, setFilteredCars] = useState([]);
   const [allCars, setAllCars] = useState([]); // Dodaj nowy stan dla wszystkich samochodów
+  const[filteredFilters, setFilteredFilters] = useState({});
 
   const fetchAllCars = async () => {
     const url = new URL("http://localhost:8080/offer");
@@ -1063,16 +1064,27 @@ const CaleOffer = () => {
     }
   };
 
-  /*const onSamochodClick = useCallback(() => {
-    router.push("/Car");
-  }, [router]);*/
+
+  //const onSamochodClick = useCallback((carId) => {
+   // router.push({
+     // pathname: "/Car",
+     // query: { carId },
+    //});
+  //}, [router]);
 
   const onSamochodClick = useCallback((carId) => {
+    const { locationId, dateFrom, dateTo } = filteredFilters;
+    const queryParams = new URLSearchParams({
+      locationId,
+      dateFrom,
+      dateTo,
+    });
+
     router.push({
       pathname: "/Car",
-      query: { carId },
+      query: { carId, ...queryParams.get("") && { queryParams: queryParams.toString() } },
     });
-  }, [router]);
+  }, [router, filteredFilters]);
 
   const handleGearChange = (value) => {
     setGear(value);
@@ -1249,10 +1261,10 @@ const CaleOffer = () => {
   );
 };
 
-export default CaleOffer;
+export default CaleOffer;*/
 
-//TAK SAMO NAJLEPSZA -ale nie ma przycisku gear
-/*import "antd/dist/antd.min.css";
+
+import "antd/dist/antd.min.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import styles from "./CaleOffer.module.css";
 import { useState, useEffect, useCallback } from "react";
@@ -1263,14 +1275,16 @@ import { DatePicker, Select } from "antd";
 
 const CaleOffer = () => {
   const router = useRouter();
+  const [gear, setGear] = useState("");
   const [fuel, setFuel] = useState("");
   const [type, setType] = useState("");
   const [carBrand, setBrandCar] = useState("");
   const [locationId, setLocationId] = useState("");
-  const [dateFrom, setDateFrom] = useState(null);
-  const [dateTo, setDateTo] = useState(null);
+  const [dateFrom, setDateFrom] = useState("");
+  const [dateTo, setDateTo] = useState("");
   const [filteredCars, setFilteredCars] = useState([]);
   const [allCars, setAllCars] = useState([]);
+  const [selectedCar, setSelectedCar] = useState([]);
 
   const fetchAllCars = async () => {
     const url = new URL("http://localhost:8080/offer");
@@ -1300,9 +1314,25 @@ const CaleOffer = () => {
     }
   };
 
-  const onSamochodClick = useCallback(() => {
-    router.push("/Car");
-  }, [router]);
+  const onSamochodClick = useCallback(
+    (carId) => {
+      router.push({
+        pathname: `/Car`,
+        query: {
+          carId,
+          locationId: locationId,
+          dateFrom: dateFrom,
+          dateTo: dateTo,
+        },
+      });
+    },
+    [router, locationId, dateFrom, dateTo]
+  );
+
+
+  const handleGearChange = (value) => {
+    setGear(value);
+  };
 
   const handleFuelChange = (value) => {
     setFuel(value);
@@ -1328,8 +1358,9 @@ const CaleOffer = () => {
     setDateTo(value);
   };
 
-  const handleSearchClick = () => {
+  const handleSearchClick = async() => {
     const filters = {
+      gear: gear || null,
       fuel: fuel || null,
       type: type || null,
       carBrand: carBrand || null,
@@ -1338,16 +1369,31 @@ const CaleOffer = () => {
       dateTo: dateTo ? dateTo.format("YYYY-MM-DD") : null,
     };
 
+    // Usuń null i undefined wartości z obiektu filters
     const filteredFilters = Object.fromEntries(
       Object.entries(filters).filter(([_, v]) => v !== null && v !== undefined)
     );
 
+    // Jeżeli nie ma żadnych filtrów, pobierz wszystkie samochody
     if (Object.keys(filteredFilters).length === 0) {
       fetchAllCars();
     } else {
+      // W przeciwnym razie pobierz dane z filtrowaniem
       fetchFilteredData(filteredFilters);
     }
+
+    // Zapisz wybrane filtry
+    setSelectedCar(filteredFilters); 
+    /*setSelectedCar({
+      locationId,
+      dateFrom,
+      dateTo,
+    });*/
+   // setLocationId({locationId});
+   // setDateFrom({dateFrom});
+   // setDateTo({dateTo});
   };
+
 
   useEffect(() => {
     fetchAllCars();
@@ -1355,11 +1401,21 @@ const CaleOffer = () => {
 
   return (
     <div className={styles.caleOffer}>
+      <div className={styles.gear}>Gear type</div>
       <div className={styles.fuel}>Fuel Type</div>
       <div className={styles.type}>Car Type</div>
       <div className={styles.carBrand}>Car Brand</div>
       <div className={styles.sortBy}>Sort by</div>
-
+      <Form.Select
+        className={styles.selectdefaultFormselect}
+        name="gear"
+        onChange={(e) => handleGearChange(e.target.value)}
+        value={gear}
+      >
+        <option>Gear type</option>
+        <option value="automatic">automatic</option>
+        <option value="manual">manual</option>
+      </Form.Select>
       <Form.Select
         className={styles.selectdefaultFormselect1}
         name="fuel"
@@ -1372,7 +1428,6 @@ const CaleOffer = () => {
         <option value="gasoline">gasoline</option>
         <option value="diesel">diesel</option>
       </Form.Select>
-
       <Form.Select
         className={styles.selectdefaultFormselect2}
         name="type"
@@ -1387,7 +1442,6 @@ const CaleOffer = () => {
         <option value="minivan">minivan</option>
         <option value="pickup">pickup</option>
       </Form.Select>
-
       <Form.Select
         className={styles.selectdefaultFormselect3}
         name="carBrand"
@@ -1455,12 +1509,14 @@ const CaleOffer = () => {
       </Select>
 
       <button className={styles.search} onClick={handleSearchClick}>
-        Search
       </button>
 
-      <OfertyFrame filteredCars={filteredCars}/>
+      <OfertyFrame 
+        filteredCars={filteredCars}
+        selectedCar={selectedCar}
+      />
     </div>
   );
 };
 
-export default CaleOffer;*/
+export default CaleOffer;

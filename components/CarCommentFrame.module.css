@@ -1,6 +1,6 @@
 .reallyComfortableCar {
   position: absolute;
-  top: 182px;
+  top: 132px;
   left: calc(50% - 195px);
   display: inline-block;
   font-family: var(--font-inter);
@@ -104,7 +104,7 @@
 .germany,
 .hans {
   position: absolute;
-  top: 118px;
+  top: 170px;
   line-height: 17px;
   display: flex;
   align-items: center;
@@ -123,12 +123,35 @@
 }
 .carCommentFrame {
   position: absolute;
-  top: 1476px;
+  top: 1456px;
   left: calc(50% - 743px);
   width: 1006px;
   height: 224px;
   overflow: hidden;
   text-align: center;
+  font-size: var(--body-mobile-m-regular-size);
+  color: var(--color-dimgray-100);
+  font-family: var(--body-desktop-s-regular);
+}
+.comment {
+  text-align: top;
+}
+
+.clientName {
+  margin-top: 50px; /* Zmniejsz margines na górę według potrzeb */
+}
+
+.clientCountry {
+  margin-top: 5px; /* Zmniejsz margines na górę według potrzeb */
+}
+
+.carCommentFrame {
+  position: absolute;
+  top: 1476px;
+  left: calc(50% - 743px);
+  width: 1006px;
+  height: 224px;
+  text-align: top;
   font-size: var(--body-mobile-m-regular-size);
   color: var(--color-dimgray-100);
   font-family: var(--body-desktop-s-regular);

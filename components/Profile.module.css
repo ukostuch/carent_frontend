@@ -35,7 +35,7 @@
 .inputdefault {
   background-color: transparent;
   position: absolute;
-  top: 193px;
+  top: 203px;
   left: calc(50% - 69px);
 }
 .icons,
@@ -130,8 +130,9 @@
   border-radius: var(--br-5xs);
   width: 266px;
   height: 169px;
-  background-image: url(/samochod@3x.png);
-  background-size: cover;
+  background-color: var(--pure-white);
+  /*background-image: url(/samochod@3x.png);*/
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: top;
 }
@@ -439,6 +440,9 @@
   top: 1166px;
   width: 322px;
 }
+
+
+
 .profile {
   position: absolute;
   top: 442px;
