@@ -1,4 +1,3 @@
-// BookingContext.js
 import React, { createContext, useContext, useState } from 'react';
 
 const BookingContext = createContext();
@@ -6,7 +5,6 @@ const BookingContext = createContext();
 const BookingProvider = ({ children }) => {
   const [carData, setCarData] = useState(null);
   const [userData, setUserData] = useState(null);
-  //const [bookingData, setBookingData] = useState(null);
 
   return (
     <BookingContext.Provider value={{carData, userData}}>

@@ -13,19 +13,23 @@
   padding: 0;
   background-color: transparent;
   position: absolute;
-  top: 1640px;
+  top: 1840px;
   right: 739px;
   border-radius: var(--br-5xs);
   width: 42px;
   height: 42px;
-  background-image: url(/image32@2x.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
 }
 .strzalkalewo {
-  right: 801px;
-  background-image: url(/image321@2x.png);
+  right: 1121px;
+  background-image: url(/strzalkalewo@2x.png);
+}
+
+.strzalkaprawo {
+  right: 1081px;
+  background-image: url(/strzlkaprawo@2x.png);
 }
 .ofertyFrame {
   position: absolute;

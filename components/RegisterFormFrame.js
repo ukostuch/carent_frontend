@@ -1,5 +1,3 @@
-
-
   import { Checkbox, FormControlLabel } from "@mui/material";
   import { useRouter } from "next/router";
   import styles from "./RegisterFormFrame.module.css";
@@ -37,7 +35,6 @@
     const registerUser = (e) => {
       e.preventDefault();
   
-      // Nie konwertuj pól na liczby całkowite
       const payload = { ...employee };
   
       console.log("Request Payload:", payload);

@@ -197,7 +197,7 @@
 .reservationStatus {
   position: absolute;
   top: 1100px; 
-  right: 705px;
+  right: 905px;
   font-size: var(--body-mobile-m-regular-size);
   line-height: 17px;
   font-family: var(--body-desktop-s-regular);

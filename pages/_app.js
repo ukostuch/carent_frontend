@@ -1,14 +1,16 @@
-//DZIALA
 import { Fragment, useEffect } from "react";
 import Head from "next/head";
-
+import { loadStripe } from "@stripe/stripe-js";
+import { Elements } from "@stripe/react-stripe-js";
 import { ThemeProvider, createTheme } from "@mui/material";
 import CssBaseline from "@mui/material/CssBaseline";
-
 import "./global.css";
+
+const stripePromise = loadStripe("pk_test_51ORJeRFDZtq9cBLGdXiZ86RoLdZ2VuU66uPobuqmphyIpu9ev9ZNTr1HJadBce7SPkVzFWwZpZIze0a0R7bpXdap00LZ1yFeg2");
 
 export default function MyApp(props) {
   const { Component, pageProps } = props;
+
   useEffect(() => {
     // Remove the server-side injected CSS.
     const jssStyles = document.querySelector("#jss-server-side");
@@ -43,7 +45,9 @@ export default function MyApp(props) {
       </Head>
       <ThemeProvider theme={muiTheme}>
         <CssBaseline />
-        <Component {...pageProps} />
+        <Elements stripe={stripePromise}>
+          <Component {...pageProps} />
+        </Elements>
       </ThemeProvider>
     </Fragment>
   );

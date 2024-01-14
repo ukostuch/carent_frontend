@@ -1,9 +1,9 @@
 .oferta1Child {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 0px;
+  left: 0px;
   border-radius: var(--br-5xs);
-  background-color: var(--pure-white);
+  background-color: transparent;  /*bylo background-color: var(--pure-white); */
   width: 430px;
   height: 353px;
 }
@@ -25,17 +25,18 @@
 .samochod1 {
   cursor: pointer;
   border: 0;
-  padding: 0;
-  background-color: transparent;
-  position: absolute;
-  top: 24px;  /* Możesz dostosować tę wartość */
-  left: 27px;  /* Możesz dostosować tę wartość */
+  padding: 10px; /* Zmieniona wartość padding, dostosuj według potrzeb */
+  background-color: rgb(150, 147, 147);
+  border-radius: var(--br-5xs);
+  position: center;
+  top: 10px;
+  left: 50%;
+  transform: translate(-0%, 10%);
   width: 375px;
   height: 209px;
-  /*background-image: url(/samochod1@3x.png);*/
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center;  /*bylo top*/
+  background-position: center;
 }
 .model1,
 .nazwa1 {
@@ -72,4 +73,5 @@
   font-size: var(--font-size-6xl);
   color: var(--color-black);
   font-family: var(--body-desktop-s-regular);
+  background-color: orangered;
 }
