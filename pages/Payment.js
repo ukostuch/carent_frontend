@@ -127,7 +127,7 @@ const Payment = () => {
       </div>
       {reservationStatus && (
         <div className={styles.reservationStatus}>
-          {reservationStatus === "success" ? "Success" : "Failure"}
+          {reservationStatus === "success" ? "Success" : ""}
         </div>
       )}
       <TpayFrame 
